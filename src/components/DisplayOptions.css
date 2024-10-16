@@ -1,0 +1,35 @@
+#display-options {
+  position: absolute;
+  top: 85%;
+  left: 20px;
+  width: 250px;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 1px #a8a29e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  font-size: 15px;
+}
+
+.labels {
+  color: #78716c;
+}
+
+.option-group {
+  padding: 0 5px;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.opt-select {
+  width: 50%;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 1px 3px;
+}

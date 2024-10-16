@@ -1,0 +1,20 @@
+#display-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding: 2px 8px;
+  border-radius: 5px;
+  border: solid 1px #a8a29e;
+  gap: 2px;
+  font-weight: 450;
+}
+
+#display-btn:hover {
+  cursor: pointer;
+  background-color: #e7e5e4;
+}
+
+#display-svg {
+  margin-right: 5px;
+}
