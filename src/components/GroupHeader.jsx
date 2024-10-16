@@ -3,7 +3,7 @@
 import Add from "../assets/add.svg";
 import Dots from "../assets/3 dot menu.svg";
 import { useContext } from "react";
-import { AppContext } from "../context/appContext";
+import { AppContext } from "../context/AppContext";
 import "./Board.css";
 import Icon from "./Icon";
 

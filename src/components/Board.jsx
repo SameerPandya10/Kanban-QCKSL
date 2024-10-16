@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { AppContext } from "../context/appContext";
+import { AppContext } from "../context/AppContext";
 import "./Board.css";
 import Group from "./Group";
 

@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { AppContext } from "../context/appContext";
+import { AppContext } from "../context/AppContext";
 import "./DisplayOptions.css";
 export default function DisplayOptions() {
   const context = useContext(AppContext);

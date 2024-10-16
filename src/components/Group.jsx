@@ -2,7 +2,7 @@
 import { useContext } from "react";
 import "./Board.css";
 import GroupHeader from "./GroupHeader";
-import { AppContext } from "../context/appContext";
+import { AppContext } from "../context/AppContext";
 import GroupCard from "./GroupCard";
 // eslint-disable-next-line no-unused-vars
 export default function Group({ name, id }) {

@@ -11,7 +11,7 @@ import Noprt from "../assets/No-priority.svg";
 import Lowprt from "../assets/Img - Low Priority.svg";
 import Medprt from "../assets/Img - Medium Priority.svg";
 import { useContext } from "react";
-import { AppContext } from "../context/appContext";
+import { AppContext } from "../context/AppContext";
 import "./Board.css";
 
 const getRandomColor = () => {
