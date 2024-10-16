@@ -3,7 +3,7 @@ import "./App.css";
 import Board from "./components/Board";
 import DisplayButton from "./components/DisplayButton";
 import DisplayOptions from "./components/DisplayOptions";
-import AppContextProvider from "./context/appContext";
+import AppContextProvider from "./context/appContext.jsx";
 export default function App() {
   const [toggleBtn, setToggleBtn] = useState(false);
   return (
